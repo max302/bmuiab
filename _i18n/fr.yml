@@ -2,3 +2,18 @@ global:
   shitpost: scatopublication
 titles:
   default: "Joyeux Jekyllage!"
+  home: "Acceuil"
+  about: "À propos"
+  meetup: "Groupes de Recontres"
+header:
+  navbar:
+    - title: Acceuil
+      link: "/"
+    - title: "A propos"
+      link: "/a-propos"
+    - title: "Nouvelles"
+      link: "/nouvelles"
+    - title: "Horaire des recontres"
+      link: "/horaire"
+    - title: "Ressources"
+      link: "/ressources"

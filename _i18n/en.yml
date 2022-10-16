@@ -2,3 +2,42 @@ global:
   shitpost: shitpost
 titles:
   default: "Happy Jekylling!"
+  home: "Home"
+  about: "About"
+  meetups: "Meetups"
+header:
+  navbar:
+    - title: Home
+      link: "/"
+    - title: "About"
+      link: "/about/"
+    - title: "News"
+      link: "/news/"
+    - title: "Meetup Schedule"
+      link: "/schedule/"
+    - title: "Ressources"
+      link: "/ressources/"
+body:
+  carousel:
+    - image: "slide1.jpg"
+      alt: "Slide 1 alt text"
+      title: "Slide 1 title"
+      body: "Lorum ipsum etc etc"
+    - image: "slide2.jpg"
+      alt: "Slide 2 alt text"
+      title: "Slide 2 title"
+      body: "Lorum ipsum etc etc"
+footer:
+  contact:
+    - title: "Phone number"
+      content: "111-222-3333"
+    - title: "Email"
+      content: "email@domain.com"
+  links:
+    - title: "BMUIAB - Github"
+      url: "https://github.com/max302/bmuiab"
+    - title: "Maxime Rousseau"
+      url: "https://maximerousseau.com"
+  social:
+    - title: "Twitter"
+      url: "https://twitter.com/max302"

@@ -1,5 +1,10 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Bitcoin Meetup In a Box" # the name of your site, e.g. ACME Corp.
-languages: ["en", "fr"] # Add your support language code here. If translations are absent, stuff will break! 
-exclude_from_localizations: ["javascript", "images", "css"]
+languages: ["en", "fr"] # Add your support language code here. If translations are absent, stuff will break!
+copyright: true
+
+exclude_from_localizations: ["javascript", "images", "css", "assets", "business-jekyll-theme"]
+exclude:
+  - "business-jekyll-theme"
+  - "_drafts"
